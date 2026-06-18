@@ -1,3 +1,4 @@
+````markdown
 # PDF Page Extractor Automation Tool
 
 Aplicação desenvolvida em Python para automatizar a extração seletiva de páginas de arquivos PDF, com navegação interativa por diretórios e geração de novos arquivos organizados.
@@ -77,3 +78,96 @@ Extração de Páginas
      │
      ▼
 Geração de Novo PDF
+````
+
+---
+
+## Tecnologias Utilizadas
+
+| Tecnologia | Aplicação                          |
+| ---------- | ---------------------------------- |
+| Python     | Lógica da automação                |
+| pathlib    | Manipulação de diretórios          |
+| PyPDF      | Leitura e extração de PDFs         |
+| OS         | Integração com sistema operacional |
+
+---
+
+## Estrutura da Saída
+
+Os arquivos gerados seguem o padrão:
+
+```
+EXT_<nome_original>_P<inicio>-<fim>.pdf
+```
+
+Exemplo:
+
+```
+EXT_relatorio_P2-10.pdf
+```
+
+Os arquivos são salvos automaticamente na pasta:
+
+```
+Desktop/Paginas_Extraidas/
+```
+
+---
+
+## Regras de Validação
+
+* Verificação da existência do diretório base
+* Validação da seleção de pastas e arquivos
+* Checagem de intervalo de páginas
+* Limite automático para o total de páginas do PDF
+* Tratamento de erros de entrada inválida
+
+---
+
+## Desafios Resolvidos
+
+* Navegação dinâmica em estrutura de diretórios
+* Seleção interativa de arquivos via terminal
+* Manipulação precisa de páginas de PDF
+* Automação de recorte de documentos
+* Tratamento de erros em fluxo interativo
+
+---
+
+## Como Executar
+
+### Instalação
+
+```bash
+pip install pypdf
+```
+
+### Execução
+
+```bash
+python script.py
+```
+
+---
+
+## Possíveis Evoluções
+
+* [ ] Processamento em lote de múltiplos PDFs
+* [ ] Interface gráfica (Tkinter ou Streamlit)
+* [ ] Integração com OCR para PDFs escaneados
+* [ ] Exportação de logs de execução
+* [ ] Automação de regras de separação de documentos
+
+---
+
+## Autor
+
+**Fábio Oliveira**
+
+Estudante de Ciências Contábeis – FIPECAFI
+
+Python • Automação • Documentos • Eficiência Operacional
+
+```
+```
