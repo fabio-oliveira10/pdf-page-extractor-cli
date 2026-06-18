@@ -166,5 +166,3 @@ python script.py
 **Fábio Oliveira**
 
 Estudante de Ciências Contábeis – FIPECAFI
-
-Python • Automação • Documentos • Eficiência Operacional
