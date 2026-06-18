@@ -1,4 +1,3 @@
-````markdown
 # PDF Page Extractor CLI
 
 Aplicação desenvolvida em Python para automatizar a extração seletiva de páginas de arquivos PDF, com navegação interativa por diretórios e geração de novos arquivos organizados.
