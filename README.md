@@ -168,6 +168,3 @@ python script.py
 Estudante de Ciências Contábeis – FIPECAFI
 
 Python • Automação • Documentos • Eficiência Operacional
-
-```
-```
