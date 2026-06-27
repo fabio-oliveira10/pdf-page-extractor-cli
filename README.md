@@ -4,7 +4,6 @@ Aplicação desenvolvida em Python para automatizar a extração seletiva de pá
 
 O projeto tem como objetivo reduzir o trabalho manual de recorte e separação de documentos, facilitando rotinas de organização e conferência de arquivos em PDF.
 
----
 
 ## Estrutura do Projeto
 
@@ -14,7 +13,6 @@ pdf-page-extractor-cli/
     └── pag_extractor.py
 ````
 
----
 
 ## Visão Geral
 
@@ -22,7 +20,6 @@ A aplicação percorre uma estrutura de diretórios local, permite a seleção i
 
 Ao final, um novo arquivo PDF é gerado contendo apenas o conteúdo selecionado.
 
----
 
 ## Escopo Atual
 
@@ -32,7 +29,6 @@ A lógica de navegação foi construída para cenários com múltiplos PDFs dist
 
 A ferramenta atua exclusivamente na manipulação estrutural de PDFs (recorte de páginas).
 
----
 
 ## Funcionalidades
 
@@ -60,7 +56,6 @@ A ferramenta atua exclusivamente na manipulação estrutural de PDFs (recorte de
 * Entrada baseada em seleção numérica
 * Tratamento de erros de entrada do usuário
 
----
 
 ## Fluxo da Aplicação
 
@@ -89,7 +84,6 @@ Extração de Páginas
 Geração de Novo PDF
 ```
 
----
 
 ## Tecnologias Utilizadas
 
@@ -100,7 +94,6 @@ Geração de Novo PDF
 | PyPDF      | Leitura e extração de PDFs         |
 | OS         | Integração com sistema operacional |
 
----
 
 ## Estrutura da Saída
 
@@ -122,7 +115,6 @@ Os arquivos são salvos automaticamente na pasta:
 Desktop/Paginas_Extraidas/
 ```
 
----
 
 ## Regras de Validação
 
@@ -132,7 +124,6 @@ Desktop/Paginas_Extraidas/
 * Limite automático para o total de páginas do PDF
 * Tratamento de erros de entrada inválida
 
----
 
 ## Desafios Resolvidos
 
@@ -142,7 +133,6 @@ Desktop/Paginas_Extraidas/
 * Automação de recorte de documentos
 * Tratamento de erros em fluxo interativo
 
----
 
 ## Como Executar
 
@@ -160,7 +150,6 @@ A partir da raiz do repositório:
 python src/pag_extractor.py
 ```
 
----
 
 ## Possíveis Evoluções
 
@@ -170,7 +159,6 @@ python src/pag_extractor.py
 * Exportação de logs de execução
 * Automação de regras de separação de documentos
 
----
 
 ## Autor
 
